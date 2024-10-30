@@ -145,14 +145,31 @@ h2 {
 
 .flex-container {
     display: flex;
-    
+    flex-direction: row;
+    justify-content: center;
+}
+.flex1 {
+    margin: 10px;
+    text-align: center;
+}
+.flex2 {
+    margin: 10px;
+    text-align: center;
+}
+.flex3 {
+    margin: 10px;
+    text-align: center;
 }
 @media screen and (max-width:500px) {
     #tp {
-        float: right;
+        position: sticky;
+        top: 0px;
+        width: 10px;
+        font-size: smaller;
     }
     .flex-container {
-        
+        display: flex;
+        flex-direction: column;
         justify-content: center;
-
+    }
 }
