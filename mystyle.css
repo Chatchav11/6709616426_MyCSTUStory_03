@@ -142,17 +142,17 @@ h2 {
     margin-left: 160px;
     margin-top: 90px;
 }
+
 .flex-container {
     display: flex;
-    flex-direction: row;
+    
 }
 @media screen and (max-width:500px) {
     #tp {
         float: right;
     }
     .flex-container {
-        display: flex;
-        flex-direction: row;
         
-    }
+        justify-content: center;
+
 }
