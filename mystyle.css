@@ -31,13 +31,9 @@ h2 {
 #tp {
     border: solid;
     border-radius: 20px;
-    float: left;
-    overflow: visible;
-    position: absolute;
-    top: 170px;
-    right: 10px;
     color: wheat;
-    padding: 10px;
+    padding: auto;
+    float: left;
 }
 #Fh2 {
     font-family: Arial, Helvetica, sans-serif;
@@ -145,4 +141,18 @@ h2 {
     clear: both;
     margin-left: 160px;
     margin-top: 90px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (max-width:500px) {
+    #tp {
+        float: right;
+    }
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        
+    }
 }
