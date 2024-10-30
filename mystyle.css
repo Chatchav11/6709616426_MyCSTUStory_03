@@ -1,6 +1,7 @@
 * {
     background-color: black;
     color: white;
+    
 }
 #hi {
     font-family: 'Courier New', Courier, monospace;
@@ -172,11 +173,11 @@ h2 {
 }
 @media screen and (max-width:500px) {
     #tp {
+        font-size: smaller;
         float: right;
         position: sticky;
         top: 0px;
         width: 75px;
-        font-size: smaller;
         padding: 5px;
         clear: both;
         margin-top: 10px;
@@ -186,13 +187,17 @@ h2 {
         flex-direction: column;
         justify-content: center;
     }
+   
 }
 @media screen and (max-width:900px) {
     .refer {
         position: relative;
         float: left;
         clear: both;
-        margin-top: 270px;
+        margin-top: 200px;
+    }
+    .return {
+        float: right;
     }
 }
     
