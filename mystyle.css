@@ -34,6 +34,7 @@ h2 {
     color: wheat;
     padding: auto;
     float: left;
+    margin-top: 160px;
 }
 #Fh2 {
     font-family: Arial, Helvetica, sans-serif;
@@ -162,10 +163,14 @@ h2 {
 }
 @media screen and (max-width:500px) {
     #tp {
+        float: right;
         position: sticky;
         top: 0px;
-        width: 10px;
+        width: 75px;
         font-size: smaller;
+        padding: 5px;
+        clear: both;
+        margin-top: 10px;
     }
     .flex-container {
         display: flex;
