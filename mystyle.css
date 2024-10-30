@@ -1,0 +1,148 @@
+* {
+    background-color: black;
+    color: white;
+}
+#hi {
+    font-family: 'Courier New', Courier, monospace;
+    border:15px ridge;
+    text-shadow: 2px 1px 2px;
+    box-shadow: 4px 4px 4px;
+}
+#why {
+    color: red;
+}
+#intro {
+    border: outset;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px;
+    box-sizing: border-box;
+    width: 200px;
+    height: 170px;
+}
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#JFh1 {
+    text-align: center ;
+    font-size: 50px;
+    background-color: aquamarine;
+    color: darkblue;
+}
+#tp {
+    border: solid;
+    border-radius: 20px;
+    float: left;
+    overflow: visible;
+    position: absolute;
+    top: 170px;
+    right: 10px;
+    color: wheat;
+    padding: 10px;
+}
+#Fh2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Ftp {
+    border: solid;
+    border-radius: 20px;
+    float: right;
+    position: sticky;
+    bottom: 850px;
+    color: wheat;
+    clear: both;
+}
+#Y1 {
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    left: 180px; 
+}
+#Y2 {
+    margin-right: 400px;
+    position: absolute;
+    top: 125px;
+    left: 650px;
+}
+#Y3 {
+    margin-right: 200px;
+    position: absolute;
+    top: 125px;
+    left: 1200px;
+    clear: both;
+}
+#Y4 {
+    float: right;
+    position: absolute;
+    right: 170px;
+    top: 125px;
+    clear: both;
+
+}
+#Jtp {
+    border: solid;
+    border-radius: 20px;
+    float: left;
+    overflow: visible;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: wheat;
+    padding: 10px;
+}
+#persian {
+    float: left;
+    margin-left: 810px;
+
+}
+#Northern {
+    float: right;
+    position: absolute;
+    top: 400px;
+    left: 1000px;
+}
+#Dcareer {
+    margin-left: 810px;
+    margin-top: 230px;
+    float: left;
+    clear: both;
+}
+#Fh3 {
+    text-align: center;
+    clear: both;
+}
+#Y1-1 {
+    float: left;
+    clear: both;
+    margin: 20px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+#Y1-2 {
+    float: left;
+    clear: both;
+    margin: 20px;
+    margin-left: 70px;
+}
+#Y1-3 {
+    float: left;
+    clear: both;
+    margin: 20px;
+    margin-left: 70px;
+}
+#Y2-1 {
+    clear: both;
+    margin-left: 130px;
+    margin-top: 90px;
+}
+
+#Y3-1 {
+    clear: both;
+    margin-left: 250px;
+    margin-top: 90px;
+}
+
+#Y4-1 {
+    clear: both;
+    margin-left: 160px;
+    margin-top: 90px;
+}
